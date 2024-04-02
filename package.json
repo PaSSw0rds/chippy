@@ -1,0 +1,15 @@
+{
+    "name": "webapp",
+    "version": "RELEASE",
+    "main": "index.html",
+    "scripts": {
+        "build": "tar -cf output.tar *.html images"
+    },
+    "devDependencies": {
+        "eslint": "latest",
+        "eslint-plugin-html": "latest",
+        "eslint-plugin-jquery": "latest",
+        "eslint-plugin-prettier": "latest"
+    },
+    "dependencies": {}
+}
